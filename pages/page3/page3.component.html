@@ -1,0 +1,9 @@
+<p>page3 works!</p>
+<nav>
+    <ul>
+        <li><a [routerLink]="[{outlets: {primary: ['page1'], nav: ['menu']}}]" routerLinkActive="active">Page 1</a></li>
+        <li><a [routerLink]="[{outlets: {primary: ['page2'], nav: ['menu']}}]" routerLinkActive="active">Page 2</a></li>
+        <li><a routerLink="/page3" routerLinkActive="active">Page 3</a></li>
+        <li><a routerLink="/page4" routerLinkActive="active">Page 4</a></li>
+    </ul>
+</nav>
